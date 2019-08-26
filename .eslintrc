@@ -1,0 +1,14 @@
+{
+  extends: [
+    "wcl-backend",
+    "plugin:prettier/recommended"
+  ],
+  parserOptions: {
+    ecmaFeatures: {
+      experimentalObjectRestSpread: true
+    }
+  },
+  rules: {
+    no-console: 1
+  }
+}

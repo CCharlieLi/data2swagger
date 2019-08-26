@@ -1,0 +1,47 @@
+{
+  "name": "data2swagger",
+  "version": "0.0.1",
+  "description": "convert data to swagger format",
+  "main": "lib/index.js",
+  "author": {
+    "name": "Charlie Li",
+    "email": "charlie@wiredcraft.com"
+  },
+  "scripts": {
+    "lint": "make lint",
+    "test": "make test",
+    "test-cov": "make test-cov",
+    "test-coveralls": "make test-coveralls",
+    "commitmsg": "commitlint -e $GIT_PARAMS",
+    "version": "conventional-changelog -p angular -i CHANGELOG.md -s -r 0 && git add CHANGELOG.md",
+    "precommit": "make lint",
+    "prepush": "make lint"
+  },
+  "contributors": [
+    "Charlie Li"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/CCharlieLi/data2swagger"
+  },
+  "bugs": {
+    "url": "https://github.com/CCharlieLi/data2swagger/issues"
+  },
+  "homepage": "https://github.com/CCharlieLi/data2swagger",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^8.1.0",
+    "@commitlint/config-conventional": "^8.1.0",
+    "assert": "^2.0.0",
+    "coveralls": "^3.0.6",
+    "eslint": "^6.2.2",
+    "eslint-config-prettier": "^6.1.0",
+    "eslint-config-wcl-backend": "^0.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "husky": "^3.0.4",
+    "intelli-espower-loader": "^1.0.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^6.2.0",
+    "prettier": "^1.18.2"
+  }
+}
