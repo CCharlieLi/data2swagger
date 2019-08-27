@@ -1,6 +1,6 @@
 BIN = ./node_modules/.bin
 TESTS = test.js
-MOCHA_OPTS = -b --timeout 10000 --reporter spec --exit --require intelli-espower-loader
+MOCHA_OPTS = -b --timeout 10000 --reporter spec --exit
 
 lint:
 	@echo "Linting with fix flag..."

@@ -1,6 +1,6 @@
 {
   "name": "data2swagger",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "convert data to swagger format",
   "main": "lib/index.js",
   "author": {
@@ -19,6 +19,16 @@
   },
   "contributors": [
     "Charlie Li"
+  ],
+  "keywords": [
+    "swagger",
+    "schema",
+    "convertor",
+    "json",
+    "string",
+    "number",
+    "array",
+    "boolean"
   ],
   "repository": {
     "type": "git",
@@ -39,7 +49,6 @@
     "eslint-config-wcl-backend": "^0.3.0",
     "eslint-plugin-prettier": "^3.1.0",
     "husky": "^3.0.4",
-    "intelli-espower-loader": "^1.0.1",
     "istanbul": "^0.4.5",
     "mocha": "^6.2.0",
     "prettier": "^1.18.2"
