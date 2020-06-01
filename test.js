@@ -27,8 +27,8 @@ describe('json2swagger', () => {
       charlie: {
         test1: 'yes',
         test2: 123,
-        test3: true
-      }
+        test3: true,
+      },
     });
     assert.deepEqual(result, {
       data2: {
@@ -39,11 +39,11 @@ describe('json2swagger', () => {
             properties: {
               test1: { type: 'string', example: 'yes' },
               test2: { type: 'number', example: 123 },
-              test3: { type: 'boolean', example: true }
-            }
-          }
-        }
-      }
+              test3: { type: 'boolean', example: true },
+            },
+          },
+        },
+      },
     });
   });
 
@@ -53,9 +53,9 @@ describe('json2swagger', () => {
         charlie: {
           test1: 'yes',
           test2: 123,
-          test3: true
-        }
-      }
+          test3: true,
+        },
+      },
     ]);
     assert.deepEqual(result, {
       data2: {
@@ -68,12 +68,12 @@ describe('json2swagger', () => {
               properties: {
                 test1: { type: 'string', example: 'yes' },
                 test2: { type: 'number', example: 123 },
-                test3: { type: 'boolean', example: true }
-              }
-            }
-          }
-        }
-      }
+                test3: { type: 'boolean', example: true },
+              },
+            },
+          },
+        },
+      },
     });
   });
 });
