@@ -1,6 +1,6 @@
 {
   "name": "data2swagger",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "convert data to swagger format",
   "main": "lib/index.js",
   "author": {
