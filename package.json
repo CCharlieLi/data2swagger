@@ -40,7 +40,7 @@
   "homepage": "https://github.com/CCharlieLi/data2swagger",
   "license": "MIT",
   "devDependencies": {
-    "@commitlint/cli": "^8.1.0",
+    "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^8.1.0",
     "assert": "^2.0.0",
     "coveralls": "^3.0.6",
